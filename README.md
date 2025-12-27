@@ -1,11 +1,11 @@
-##💻 Laptop Price Analysis & Prediction
-#📌 Project Overview
+💻 Laptop Price Analysis & Prediction
+📌 Project Overview
 
 The Laptop Price Analysis project focuses on analyzing laptop specifications and building a machine learning model to understand the factors that influence laptop prices. The project combines Data Analysis, Exploratory Data Analysis (EDA), and Machine Learning to derive insights and predict laptop prices based on hardware and display features.
 
 This project is designed to demonstrate real-world data analyst and machine learning workflows, including data cleaning, visualization, and regression modeling.
 
-#🎯 Problem Statement
+🎯 Problem Statement
 
 Laptop prices vary significantly based on specifications such as brand, processor, RAM, storage, screen type, and graphics card.
 The objective of this project is to:
@@ -16,7 +16,7 @@ Perform exploratory data analysis to identify trends and patterns
 
 Build a regression model to predict laptop prices accurately
 
-#📂 Dataset Description
+📂 Dataset Description
 
 Source: Kaggle (Laptop Prices Dataset)
 
@@ -44,7 +44,7 @@ Operating System, Weight
 
 The dataset was preprocessed to remove duplicates and ensure consistency for machine learning.
 
-#🛠️ Tools & Technologies Used
+🛠️ Tools & Technologies Used
 
 Programming Language: Python
 
@@ -54,7 +54,7 @@ IDE / Environment: Jupyter Notebook
 
 Domain: Data Analytics & Machine Learning
 
-#🔍 Project Workflow
+🔍 Project Workflow
 
 Data Loading & Understanding
 
@@ -98,7 +98,7 @@ R-Squared (R²)
 
 Compared actual vs predicted prices using visualization
 
-#📊 Key Insights
+📊 Key Insights
 
 Laptops with higher RAM, SSD storage, and better CPUs tend to have higher prices
 
@@ -108,7 +108,7 @@ macOS laptops are generally priced higher than other operating systems
 
 Storage type plays a crucial role in pricing trends
 
-#✅ Results
+✅ Results
 
 Successfully built a regression model to predict laptop prices
 
@@ -116,7 +116,7 @@ Gained actionable insights into feature-price relationships
 
 Demonstrated end-to-end data analysis and ML pipeline
 
-#🚀 Future Improvements
+🚀 Future Improvements
 
 Try advanced models like Random Forest, XGBoost
 
@@ -126,13 +126,13 @@ Deploy the model using Flask or Streamlit
 
 Convert price predictions into real-time web application
 
-#📁 Repository Structure
+📁 Repository Structure
 ├── Laptop Price Analysis.ipynb   # Jupyter Notebook with full analysis & model
 ├── laptop_prices.csv            # Dataset
 ├── Project_Report.pdf           # Problem statement & documentation
 ├── README.md                    # Project description
 
-#👩‍💻 Author
+👩‍💻 Author
 
 Charitra Jain
 MCA Student | Aspiring Data Analyst
