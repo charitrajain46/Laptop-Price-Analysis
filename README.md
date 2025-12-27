@@ -1,139 +1,136 @@
-💻 Laptop Price Analysis & Prediction
-📌 Project Overview
+# 💻 Laptop Price Analysis & Prediction
 
-The Laptop Price Analysis project focuses on analyzing laptop specifications and building a machine learning model to understand the factors that influence laptop prices. The project combines Data Analysis, Exploratory Data Analysis (EDA), and Machine Learning to derive insights and predict laptop prices based on hardware and display features.
+## 📌 Project Overview
 
-This project is designed to demonstrate real-world data analyst and machine learning workflows, including data cleaning, visualization, and regression modeling.
+The **Laptop Price Analysis** project focuses on analyzing laptop specifications and building a machine learning model to understand the factors that influence laptop prices. The project combines **Data Analysis, Exploratory Data Analysis (EDA), and Machine Learning** techniques to derive meaningful insights and predict laptop prices based on hardware and display features.
 
-🎯 Problem Statement
+This project demonstrates a complete **data analyst workflow**, including data cleaning, visualization, feature analysis, and regression modeling.
 
-Laptop prices vary significantly based on specifications such as brand, processor, RAM, storage, screen type, and graphics card.
+---
+
+## 🎯 Problem Statement
+
+Laptop prices vary significantly depending on specifications such as brand, processor, RAM, storage, screen type, and graphics card.
+
 The objective of this project is to:
 
-Analyze how different laptop features impact price
+* Analyze how different laptop features impact price
+* Perform exploratory data analysis to identify trends and patterns
+* Build a machine learning model to predict laptop prices
 
-Perform exploratory data analysis to identify trends and patterns
+---
 
-Build a regression model to predict laptop prices accurately
+## 📂 Dataset Description
 
-📂 Dataset Description
+* **Source:** Kaggle (Laptop Prices Dataset)
+* **Total Records:** 1,275
+* **Total Features:** 23
+* **Target Variable:** `Price_euros`
 
-Source: Kaggle (Laptop Prices Dataset)
+### Key Features:
 
-Total Records: 1,275
+* Company, Product, TypeName
+* Screen Size (Inches), Screen Resolution
+* RAM, Primary & Secondary Storage
+* CPU Company, CPU Frequency, CPU Model
+* GPU Company & Model
+* Touchscreen, IPS Panel, Retina Display
+* Operating System, Weight
 
-Total Features: 23
+The dataset was cleaned and checked for duplicates and missing values to ensure reliable analysis and modeling.
 
-Target Variable: Price_euros
+---
 
-Key Features:
+## 🛠️ Tools & Technologies Used
 
-Company, Product, TypeName
+* **Programming Language:** Python
+* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+* **IDE / Environment:** Jupyter Notebook
+* **Domain:** Data Analytics & Machine Learning
 
-Screen Size (Inches), Screen Resolution
+---
 
-RAM, Storage (Primary & Secondary)
+## 🔍 Project Workflow
 
-CPU Company, CPU Frequency, CPU Model
+### 1. Data Loading & Understanding
 
-GPU Company & Model
+* Loaded the dataset using Pandas
+* Checked data shape, data types, and null values
 
-Touchscreen, IPS Panel, Retina Display
+### 2. Data Cleaning
 
-Operating System, Weight
+* Verified there were no missing values
+* Ensured correct data formats
 
-The dataset was preprocessed to remove duplicates and ensure consistency for machine learning.
+### 3. Exploratory Data Analysis (EDA)
 
-🛠️ Tools & Technologies Used
+* **Univariate Analysis:** Company, OS, RAM, Screen Type, Storage
+* **Bivariate Analysis:** Price vs OS, RAM, Storage, CPU Frequency
+* Visualizations using bar charts, pie charts, box plots, and scatter plots
 
-Programming Language: Python
+### 4. Feature Engineering
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+* Converted categorical variables into numerical format
+* Selected relevant features for modeling
 
-IDE / Environment: Jupyter Notebook
+### 5. Model Building
 
-Domain: Data Analytics & Machine Learning
+* Applied **Linear Regression**
+* Split the dataset into training and testing sets
 
-🔍 Project Workflow
+### 6. Model Evaluation
 
-Data Loading & Understanding
+* Evaluated the model using:
 
-Loaded dataset using Pandas
+  * Mean Squared Error (MSE)
+  * R-Squared (R²)
+* Visualized actual vs predicted prices
 
-Checked shape, data types, and null values
+---
 
-Data Cleaning
+## 📊 Key Insights
 
-Verified no missing values
+* Laptops with **higher RAM and SSD storage** tend to have higher prices
+* **Touchscreen, Retina Display, and IPS panels** significantly affect pricing
+* macOS laptops are generally priced higher
+* Storage type plays a major role in price variation
 
-Ensured correct data formats
+---
 
-Exploratory Data Analysis (EDA)
+## ✅ Results
 
-Univariate analysis (Company, OS, RAM, Screen, Storage)
+* Successfully built a regression model to predict laptop prices
+* Extracted meaningful insights from laptop specifications
+* Demonstrated an end-to-end data analysis and ML pipeline
 
-Bivariate analysis (Price vs OS, RAM, Storage, CPU Frequency)
+---
 
-Visualizations using bar plots, pie charts, box plots, and scatter plots
+## 🚀 Future Improvements
 
-Feature Engineering
+* Implement advanced models like **Random Forest** or **XGBoost**
+* Perform feature scaling and hyperparameter tuning
+* Deploy the model using Flask or Streamlit
+* Build a real-time laptop price prediction web app
 
-Converted categorical variables into numerical format
+---
 
-Selected relevant features for modeling
+## 📁 Repository Structure
 
-Model Building
-
-Applied Linear Regression
-
-Split data into training and testing sets
-
-Model Evaluation
-
-Evaluated model using:
-
-Mean Squared Error (MSE)
-
-R-Squared (R²)
-
-Compared actual vs predicted prices using visualization
-
-📊 Key Insights
-
-Laptops with higher RAM, SSD storage, and better CPUs tend to have higher prices
-
-Touchscreen, Retina Display, and IPS panels significantly impact pricing
-
-macOS laptops are generally priced higher than other operating systems
-
-Storage type plays a crucial role in pricing trends
-
-✅ Results
-
-Successfully built a regression model to predict laptop prices
-
-Gained actionable insights into feature-price relationships
-
-Demonstrated end-to-end data analysis and ML pipeline
-
-🚀 Future Improvements
-
-Try advanced models like Random Forest, XGBoost
-
-Perform feature scaling and hyperparameter tuning
-
-Deploy the model using Flask or Streamlit
-
-Convert price predictions into real-time web application
-
-📁 Repository Structure
-├── Laptop Price Analysis.ipynb   # Jupyter Notebook with full analysis & model
+```
+├── Laptop Price Analysis.ipynb   # Jupyter Notebook with analysis & model
 ├── laptop_prices.csv            # Dataset
-├── Project_Report.pdf           # Problem statement & documentation
-├── README.md                    # Project description
+├── Laptop Price Analysis _ ML _ FA _ DA Project.pdf  # Problem statement
+├── README.md                    # Project documentation
+```
 
-👩‍💻 Author
+---
 
-Charitra Jain
+## 👩‍💻 Author
+
+**Charitra Jain**
 MCA Student | Aspiring Data Analyst
-🔗 LinkedIn: https://www.linkedin.com/in/charitra-jain-8271b4240/
+🔗 LinkedIn: [https://www.linkedin.com/in/charitra-jain-8271b4240/](https://www.linkedin.com/in/charitra-jain-8271b4240/)
+
+---
+
+⭐ *If you find this project useful, feel free to star the repository!*
